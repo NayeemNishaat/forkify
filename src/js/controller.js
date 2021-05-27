@@ -8,6 +8,8 @@ import addRecipeView from './views/addRecipeView.js';
 
 import 'regenerator-runtime/runtime'; // Remark: Polyfilling async - await
 import 'core-js/stable'; // Remark: Polyfilling advanced features and everything else and parcel is used for transpiling
+
+// Key: Forkify API
 // https://forkify-api.herokuapp.com/v2
 
 const controlRecipes = async function () {
@@ -145,4 +147,3 @@ const init = function () {
 	// controlServings(); // Important: Pitfall of using Async function
 };
 init();
-console.log(jsjjd);
