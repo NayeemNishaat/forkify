@@ -134,6 +134,11 @@ const controlGenerateUploadRecipe = function () {
 		setTimeout(() => addRecipeView.render(true), 500);
 };
 
+const controlHome = function () {
+	// console.log(45);
+	window.location.replace(`http://localhost:1234/`);
+};
+
 const init = function () {
 	// Point: Implementing Publisher-Subscriber pattern
 	bookmarksView.addHandlerRender(controlBookmarks);
@@ -144,6 +149,7 @@ const init = function () {
 	paginationView.addHandlerClick(controlPagination);
 	addRecipeView.addHandlerUpload(controlAddRecipe);
 	addRecipeView.addHandlerHideWindow(controlGenerateUploadRecipe);
+	bookmarksView.addHandlerHome(controlHome);
 	// controlServings(); // Important: Pitfall of using Async function
 };
 init();

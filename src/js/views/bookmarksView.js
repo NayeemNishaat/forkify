@@ -15,5 +15,11 @@ class BookmarksView extends View {
 			.map((bookmark) => previewView.render(bookmark, false))
 			.join(``);
 	}
+
+	addHandlerHome(handler) {
+		document
+			.querySelector(`.header__logo`)
+			.addEventListener(`click`, handler);
+	}
 }
 export default new BookmarksView();
