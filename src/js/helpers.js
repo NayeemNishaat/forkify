@@ -46,4 +46,5 @@ git reset --hard b87ad00e650ab0cbe34160f495894f19266a06c4 --> Reset to the commi
 git branch --> Shows the list of branch (* --> Means active branch)
 git branch new-feature --> Creates a new branch named "new-feature"
 git checkout new-feature --> Switch to "new-feature" branch
+git merge new-feature --> Merge "new-feature" branch with the active branch
 */
