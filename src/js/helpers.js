@@ -50,4 +50,5 @@ git merge new-feature --> Merge "new-feature" branch with the active branch
 git remote add origin https://github.com/NayeemNishaat/Forkify.git --> Stting a remote branch "origin" and it's link "https://github.com/NayeemNishaat/Forkify.git"
 git push origin main --> Pushing the local "main" repository to the remote "origin" repository
 git branch -m new --> Rename the current branch to "new"
+git pull origin main --> Get the "main" branch of the remote repository "origin"
 */
