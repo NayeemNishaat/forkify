@@ -47,4 +47,6 @@ git branch --> Shows the list of branch (* --> Means active branch)
 git branch new-feature --> Creates a new branch named "new-feature"
 git checkout new-feature --> Switch to "new-feature" branch
 git merge new-feature --> Merge "new-feature" branch with the active branch
+git remote add origin https://github.com/NayeemNishaat/Forkify.git --> Stting a remote branch "origin" and it's link "https://github.com/NayeemNishaat/Forkify.git"
+git push origin main --> Pushing the local "main" repository to the remote "origin" repository
 */
