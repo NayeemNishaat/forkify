@@ -31,32 +31,14 @@ export const AJAX = async function (url, uploadData = undefined) {
 	}
 };
 
-/* export const getJSON = async function (url) {
-	try {
-		const res = await Promise.race([fetch(url), timeout(TIMEOUT_SEC)]);
-		const data = await res.json();
-		if (!res.ok) throw new Error(`${data.message} (${res.status})`);
-		return data;
-	} catch (err) {
-		throw err;
-	}
-};
-
-export const sendJSON = async function (url, uploadData) {
-	try {
-		const fetchPro = fetch(url, {
-			method: `POST`,
-			headers: {
-				'Content-Type': `application/json`
-			},
-			body: JSON.stringify(uploadData)
-		});
-
-		const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
-		const data = await res.json();
-		if (!res.ok) throw new Error(`${data.message} (${res.status})`);
-		return data;
-	} catch (err) {
-		throw err;
-	}
-}; */
+// Key: Git Tutorial
+/*
+git init --> Initializa an empty git repository
+git config --global user.name NayeemNishaat --> Set  github Username
+git config --global user.email RxNayeemIMI@gmail.com --> Set  github Email
+.gitignore --> Put the file/folder names inside this file and these will be ignored by git
+git status --> Show the status of the repository
+git add -A --> Add all the files/folders to the staging area
+git commit -m 'Initial Commit' --> Save the modification of all the files to the repository with the message 'Initial Commit'
+git reset --hard HEAD --> Reset to the previous commit
+*/

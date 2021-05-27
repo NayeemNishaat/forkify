@@ -144,6 +144,6 @@ const init = function () {
 	addRecipeView.addHandlerHideWindow(controlGenerateUploadRecipe);
 	// controlServings(); // Important: Pitfall of using Async function
 	console.log(`Welcome`);
-	console.log(`Welcome`);
+	console.log(`Bug:`);
 };
 init();

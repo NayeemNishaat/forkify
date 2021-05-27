@@ -74,6 +74,7 @@ export const updateServings = function (newServings) {
 	});
 	state.recipe.servings = newServings;
 };
+console.log(`Bug:`);
 
 const persistBookmarks = function () {
 	localStorage.setItem(`bookmarks`, JSON.stringify(state.bookmarks));
