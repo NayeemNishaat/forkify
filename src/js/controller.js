@@ -135,8 +135,8 @@ const controlGenerateUploadRecipe = function () {
 };
 
 const controlHome = function () {
-	// console.log(45);
-	window.location.replace(`http://localhost:1234/`);
+	const url = window.location.origin;
+	window.location.assign(url);
 };
 
 const init = function () {
