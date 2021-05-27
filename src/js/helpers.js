@@ -39,6 +39,8 @@ git config --global user.email RxNayeemIMI@gmail.com --> Set  github Email
 .gitignore --> Put the file/folder names inside this file and these will be ignored by git
 git status --> Show the status of the repository
 git add -A --> Add all the files/folders to the staging area
-git commit -m 'Initial Commit' --> Save the modification of all the files to the repository with the message 'Initial Commit'
+git commit -m "Initial Commit" --> Save the modification of all the files to the repository with the message "Initial Commit"
 git reset --hard HEAD --> Reset to the previous commit
+git log --> Show the log of commits
+git reset --hard b87ad00e650ab0cbe34160f495894f19266a06c4 --> Reset to the commit associated with the ID
 */
