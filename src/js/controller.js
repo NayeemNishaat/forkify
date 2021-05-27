@@ -145,3 +145,4 @@ const init = function () {
 	// controlServings(); // Important: Pitfall of using Async function
 };
 init();
+console.log(jsjjd);
