@@ -4,6 +4,8 @@
 new
 -->
 
+## Live at https://labyrinth-forkify.netlify.app/
+
 # Forkify Project
 
 It's a recipe application with custom recipe uploading feature.
